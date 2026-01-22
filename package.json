@@ -1,6 +1,6 @@
 {
-  "name": "weather-cli",
-  "version": "1.0.0",
+  "name": "weather-cli-senriv",
+  "version": "1.0.1",
   "description": "Simple CLI tool for checking the weather",
   "main": "weather.js",
   "bin": {

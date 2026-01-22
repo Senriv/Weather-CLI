@@ -20,7 +20,7 @@ Powered by **OpenWeatherMap API**.
 Install globally via npm:
 
 ```bash
-npm install -g weather-cli
+npm install -g weather-cli-senriv
 ```
 
 After that, the `weather` command will be available globally.
