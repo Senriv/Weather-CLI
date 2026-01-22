@@ -1,0 +1,36 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "Simple CLI tool for checking the weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather",
+    "openweathermap",
+    "nodejs",
+    "terminal"
+  ],
+  "homepage": "https://github.com/Senriv/Weather-CLI#readme",
+  "bugs": {
+    "url": "https://github.com/Senriv/Weather-CLI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senriv/Weather-CLI.git"
+  },
+  "license": "ISC",
+  "author": "Vitalii Borysenko (Senriv)",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "dedent-js": "^1.0.1"
+  }
+}
